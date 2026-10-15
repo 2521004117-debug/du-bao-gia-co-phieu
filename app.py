@@ -1,4 +1,4 @@
-!pip install yfinance pandas numpy matplotlib scikit-learn tensorflow
+pip install yfinance pandas numpy matplotlib scikit-learn tensorflow
 # Import 
 import yfinance as yf
 import pandas as pd
