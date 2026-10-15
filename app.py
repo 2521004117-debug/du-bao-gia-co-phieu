@@ -1,5 +1,4 @@
-import streamlit as st
-# Import 
+# Import
 import yfinance as yf
 import pandas as pd
 import numpy as np
@@ -112,3 +111,4 @@ future_x = range(len(y_test_real), len(y_test_real)+10)
 plt.plot(future_x, future_predictions, marker='o', label="10 ngày tới")
 plt.legend()
 plt.show()
+
